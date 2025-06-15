@@ -1,5 +1,7 @@
-function lookForUpdades() {}
+function lookForUpdades() {
+  const INTERVAL_30_MINUTES = 30 * 60 * 1000; // 30 minutes in milliseconds
 
-setInterval(lookForUpdades, 60 * 30 * 1000)
+  setInterval(lookForUpdades, INTERVAL_30_MINUTES);
+}
 
-function calculateDiscount(price, discount) {}
+function calculateDiscount(priceInCents, discountInPercentage) {}
